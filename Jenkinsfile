@@ -1,11 +1,6 @@
 pipeline {
     agent any
 
-    // environment{
-    //     registry = 'quandvrobusto/house-price-prediction-api'
-    //     registryCredential = 'dockerhub'
-    // }
-
     stages {
         stage('Deploy') {
             agent {

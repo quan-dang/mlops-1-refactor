@@ -19,7 +19,6 @@ python predict.py
 ## Prepare for deployment on GCP
 
 ### Set up Jenkins
-
 Create a new VM
 
 ```shell
